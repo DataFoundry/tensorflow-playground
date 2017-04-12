@@ -81,7 +81,7 @@
     NAME         REVISION   REPLICAS   TRIGGERED BY
     playground    1          1          config
 
-    [songzx@openshift-container-deploy2 ~]$ oc expose dc playground --port=80
+    [songzx@openshift-container-deploy2 ~]$ oc expose dc playground --port=8080
     service "playground" exposed
 
 
